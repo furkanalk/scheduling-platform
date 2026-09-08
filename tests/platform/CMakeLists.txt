@@ -8,7 +8,7 @@ target_link_libraries(platform_smoke_test
         academic_domain
 )
 
-target_compile_features(platform_smoke_test PRIVATE cxx_std_20)
+target_compile_features(platform_smoke_test PRIVATE cxx_std_23)
 
 add_test(
     NAME platform_smoke_test

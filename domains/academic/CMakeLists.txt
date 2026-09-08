@@ -12,7 +12,7 @@ target_link_libraries(academic_domain
         scheduling_core
 )
 
-target_compile_features(academic_domain PUBLIC cxx_std_20)
+target_compile_features(academic_domain PUBLIC cxx_std_23)
 
 if(MSVC)
     target_compile_options(academic_domain PRIVATE

@@ -7,7 +7,7 @@ target_include_directories(scheduling_core
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_compile_features(scheduling_core PUBLIC cxx_std_20)
+target_compile_features(scheduling_core PUBLIC cxx_std_23)
 
 if(MSVC)
     target_compile_options(scheduling_core PRIVATE
